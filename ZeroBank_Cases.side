@@ -1,0 +1,172 @@
+{
+  "id": "68acdd16-9fb8-4963-979f-aa2839d10886",
+  "version": "2.0",
+  "name": "ZeroBank_Cases",
+  "url": "http://zero.webappsecurity.com/",
+  "tests": [{
+    "id": "a927344f-ec47-4ae4-864a-799a48ad94f1",
+    "name": "Input validations",
+    "commands": [{
+      "id": "b0ec820c-08bb-4f38-8ea9-20a48befedfa",
+      "comment": "",
+      "command": "open",
+      "target": "http://zero.webappsecurity.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08966e41-9c73-4ea8-bf73-c89ad2788c12",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1166x620",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02df51bf-e877-442b-8217-1aaafdcddaa3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#feedback > div",
+      "targets": [
+        ["css=#feedback > div", "css:finder"],
+        ["xpath=//li[@id='feedback']/div", "xpath:idRelative"],
+        ["xpath=//li[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5200a436-45ef-4dbc-b4aa-60e120c440bc",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4377c0d-2f56-4eda-a2c0-247f8b829437",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "4165"
+    }, {
+      "id": "9cb4a8bb-0b92-4b4c-8d42-3a4c5c70f4fb",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0149484a-3485-44b1-a01e-dc60aacae395",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "456456"
+    }, {
+      "id": "4e366458-7e15-42fa-a6db-31e2ea914698",
+      "comment": "",
+      "command": "click",
+      "target": "id=subject",
+      "targets": [
+        ["id=subject", "id"],
+        ["name=subject", "name"],
+        ["css=#subject", "css:finder"],
+        ["xpath=//input[@id='subject']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccdd811c-2dd9-4b34-b646-b476f7a41da5",
+      "comment": "",
+      "command": "type",
+      "target": "id=subject",
+      "targets": [
+        ["id=subject", "id"],
+        ["name=subject", "name"],
+        ["css=#subject", "css:finder"],
+        ["xpath=//input[@id='subject']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "456456"
+    }, {
+      "id": "83b93522-af04-4653-aafa-f8be80504cce",
+      "comment": "",
+      "command": "click",
+      "target": "id=comment",
+      "targets": [
+        ["id=comment", "id"],
+        ["name=comment", "name"],
+        ["css=#comment", "css:finder"],
+        ["xpath=//textarea[@id='comment']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6851e67c-41cc-452b-9415-286e26af673c",
+      "comment": "",
+      "command": "type",
+      "target": "id=comment",
+      "targets": [
+        ["id=comment", "id"],
+        ["name=comment", "name"],
+        ["css=#comment", "css:finder"],
+        ["xpath=//textarea[@id='comment']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "464565464"
+    }, {
+      "id": "9c66e678-7b40-4ecd-91bb-e805e5e57ea6",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=.btn-signin", "css:finder"],
+        ["xpath=//input[@name='submit']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "920db736-03c9-4819-b3c9-ed77a50964e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.offset3",
+      "targets": [
+        ["css=.offset3", "css:finder"],
+        ["xpath=//div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4c3426f7-0c41-4989-b406-18d74c3410b8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://zero.webappsecurity.com/"],
+  "plugins": []
+}
