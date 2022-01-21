@@ -10,8 +10,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "mocha inputvalidations.spec.js",
-    "init": "node inputvalidations.spec.js"
+    "test1": "mocha inputvalidations.spec.js",
+    "test2": "mocha inputvalidationok.spec.js"
   },
   "keywords": [],
   "author": "",
